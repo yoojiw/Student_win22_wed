@@ -38,7 +38,6 @@ public class Student_win22_wed {
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a word :");
-        System.out.println("this line is added");
         String word = sc.nextLine(); 
         
 
