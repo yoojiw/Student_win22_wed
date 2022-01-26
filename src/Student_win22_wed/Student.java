@@ -13,12 +13,11 @@ public class Student {
     private String studentId; 
     private String studentName;
     private String address;
-
  
     
-    public Student(String sid, String sname){
-      this.studentId = sid; 
-      this.studentName = sname; 
+    public Student(String studentId, String studentName){
+      this.studentId = studentId; 
+      this.studentName = studentName; 
       
     }
 
