@@ -12,6 +12,9 @@ package Student_win22_wed;
 public class Student {
     private String studentId; 
     private String studentName;
+    private String address;
+
+ 
     
     public Student(String sid, String sname){
       this.studentId = sid; 
@@ -27,6 +30,15 @@ public class Student {
         this.studentName = studentName;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    
+    
     public String getStudentId() {
         return studentId;
     }
